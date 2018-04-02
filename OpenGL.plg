@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OpenGL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\RenJie\AppData\Local\Temp\RSP4F15.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/OpenGL.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\RenJie\Desktop\OpenGL\Main.cpp"
+]
+Creating command line "cl.exe @C:\Users\RenJie\AppData\Local\Temp\RSP4F15.tmp" 
+Creating temporary file "C:\Users\RenJie\AppData\Local\Temp\RSP4F16.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/OpenGL.pdb" /debug /machine:I386 /out:"Debug/OpenGL.exe" /pdbtype:sept 
+.\Debug\Main.obj
+]
+Creating command line "link.exe @C:\Users\RenJie\AppData\Local\Temp\RSP4F16.tmp"
+<h3>Output Window</h3>
+Compiling...
+Main.cpp
+C:\Users\RenJie\Desktop\OpenGL\Main.cpp(85) : warning C4101: 'nX' : unreferenced local variable
+C:\Users\RenJie\Desktop\OpenGL\Main.cpp(85) : warning C4101: 'nY' : unreferenced local variable
+C:\Users\RenJie\Desktop\OpenGL\Main.cpp(214) : warning C4518: 'int ' : storage-class or type specifier(s) unexpected here; ignored
+C:\Users\RenJie\Desktop\OpenGL\Main.cpp(214) : warning C4228: nonstandard extension used : qualifiers after comma in declarator list are ignored
+Linking...
+
+
+
+<h3>Results</h3>
+OpenGL.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
